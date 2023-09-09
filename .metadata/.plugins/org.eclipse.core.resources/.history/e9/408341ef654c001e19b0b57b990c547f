@@ -1,0 +1,11 @@
+package StaticMethod;
+
+public class Runner {
+	public static void main(String[] args) {
+		Caculator.printSum(5, 6);
+		printHello();
+	}
+	public static void printHello() {
+		System.out.println("Hello");
+	}
+}

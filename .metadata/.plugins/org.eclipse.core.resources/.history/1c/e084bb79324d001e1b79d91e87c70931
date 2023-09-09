@@ -1,0 +1,8 @@
+package J04004;
+
+public class Runner {
+	private int tso;
+	private int mso;
+	
+	
+}

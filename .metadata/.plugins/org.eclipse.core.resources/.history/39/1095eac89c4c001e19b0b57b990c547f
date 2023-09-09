@@ -1,0 +1,16 @@
+package BT1;
+
+public class Rectangle {
+	private int x;
+	private int y;
+	private int width;
+	private int height;
+	
+	public Rectangle(int x,int y) {
+		this(0,0);
+	}
+
+	public Rectangle(int i, int j) {
+		
+	}
+}

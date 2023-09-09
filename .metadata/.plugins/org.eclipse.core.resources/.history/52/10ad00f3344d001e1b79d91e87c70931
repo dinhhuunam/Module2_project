@@ -1,0 +1,36 @@
+package J04004;
+
+public class Pso {
+	private long tso;
+	private long mso;
+	
+	public Pso() {
+	}
+	public Pso(long tso, long mso) {
+		super();
+		this.tso = tso;
+		this.mso = mso;
+	}
+	public long gcd(long a,long b) {
+		if(b==0) return a;
+		return gcd(b,a%b);
+	}
+	
+	public void rutGon(Pso p) {
+		p.tso/=gcd(p.tso,p.mso);
+		p.mso/=gcd(p.tso,p.mso);
+	}
+	public void tong(Pso p) {
+		rutGon(this);
+		rutGon(p);
+		Pso p1=new Pso();
+		p1.tso=this.tso*p.mso+this.mso*p.tso;
+		p1.mso=this.mso*p.mso;
+		rutGon(p1);
+		System.out.println(p1);
+	}
+	@Override
+	public String toString() {
+		return tso+"/"+mso;
+	}
+}

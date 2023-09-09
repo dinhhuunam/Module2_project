@@ -1,0 +1,11 @@
+package Inheritance2;
+
+public class Cat extends Animal{
+	public String food;
+
+	public Cat(int age, String name, String food) {
+		super(age, name);
+		this.food = food;
+	}
+	
+}

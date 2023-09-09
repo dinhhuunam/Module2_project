@@ -1,0 +1,13 @@
+package Polymorphism;
+
+public class Animal {
+	private String type;
+	
+	public Animal() {
+	}
+
+	public Animal(String type) {
+		super();
+		this.type = type;
+	}
+}

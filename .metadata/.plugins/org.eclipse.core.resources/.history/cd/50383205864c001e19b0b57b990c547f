@@ -1,0 +1,15 @@
+package Inheritance1;
+
+public class People {
+	private String name, gender;
+	private int age;
+	
+	public People(String name, String gender, int age) {
+		super();
+		this.name = name;
+		this.gender = gender;
+		this.age = age;
+	}
+	
+	
+}

@@ -1,0 +1,11 @@
+package Polymorphism;
+
+public class Dog extends Animal{
+	private String tiengSua;
+	
+	public Dog(String tiengSua) {
+		super("mammal");
+		this.tiengSua=tiengSua;
+	}
+	
+}

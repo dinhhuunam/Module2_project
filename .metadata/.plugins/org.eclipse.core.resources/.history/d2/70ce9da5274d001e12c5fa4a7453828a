@@ -1,0 +1,9 @@
+package J04022;
+
+public class WordSet {
+	private String s;
+	
+	public WordSet() {
+		// TODO Auto-generated constructor stub
+	}
+}

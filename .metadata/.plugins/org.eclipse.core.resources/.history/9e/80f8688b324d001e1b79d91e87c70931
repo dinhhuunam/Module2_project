@@ -1,0 +1,6 @@
+package J04004;
+
+public class Pso {
+	private int tso;
+	private int mso;
+}

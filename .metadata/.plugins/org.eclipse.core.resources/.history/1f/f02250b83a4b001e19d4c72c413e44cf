@@ -1,0 +1,34 @@
+package Static;
+
+public class Student {
+	private String name;
+	private static int age;
+	private static int count=0;
+	
+	public Student(String name) {
+		Runner.count++;
+		this.name = name;
+		this.age=21;
+	}
+	public static void startLearn() {
+		System.out.println("Student start learning English in five year");
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public static int getAge() {
+		return age;
+	}
+	public static void setAge(int age) {
+		Student.age = age;
+	}
+	public static int getCount() {
+		return count;
+	}
+	public static void setCount(int count) {
+		Student.count = count;
+	}
+}

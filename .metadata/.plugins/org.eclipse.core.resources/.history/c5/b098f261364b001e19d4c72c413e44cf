@@ -1,0 +1,11 @@
+package Static;
+
+public class Runner {
+	public static int count=0;
+	public static void main(String[] args) {
+//		public static int count=0;
+		Student st1=new Student("A");
+		Student st2=new Student("B");
+		System.out.println(Runner.count);
+	}
+}

@@ -1,0 +1,6 @@
+package StopWatch;
+
+public class StopWatch {
+	private long startTime;
+	private long endTime;
+}

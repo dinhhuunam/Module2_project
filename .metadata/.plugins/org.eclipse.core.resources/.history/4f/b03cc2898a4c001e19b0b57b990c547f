@@ -1,0 +1,12 @@
+package Inheritance1;
+
+public class Runner {
+	public static void main(String[] args) {
+		Student st1 = new Student();
+		
+	}
+	public static void khoiDong(People peo1) {
+		peo1.an();
+		peo1.ngu();
+	}
+}

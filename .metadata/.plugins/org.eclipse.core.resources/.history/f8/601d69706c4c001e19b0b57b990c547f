@@ -1,0 +1,18 @@
+package Inheritance;
+
+public class Dog extends Animal{
+	
+	private String earShape;
+	private String tailShape;
+	
+	public Dog() {
+		super("Mutt","Big",50);
+	}
+
+	public Dog(String type, String size, double weight, String earShape, String tailShape) {
+		super(type, size, weight);
+		this.earShape = earShape;
+		this.tailShape = tailShape;
+	}
+	
+}

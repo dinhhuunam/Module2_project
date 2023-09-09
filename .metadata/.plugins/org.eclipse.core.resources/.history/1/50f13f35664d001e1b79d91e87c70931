@@ -1,0 +1,9 @@
+package Polymorphism;
+
+public class Dog extends Animal{
+	private String tiengSua;
+	
+	public Dog() {
+		super("Wolf Wolf");
+	}
+}

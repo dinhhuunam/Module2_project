@@ -1,0 +1,37 @@
+package J04004;
+
+public class Pso {
+	private int tso;
+	private int mso;
+	
+	public Pso() {
+		// TODO Auto-generated constructor stub
+	}
+	public Pso(int tso, int mso) {
+		super();
+		this.tso = tso;
+		this.mso = mso;
+	}
+	
+	public int gcd(int a,int b) {
+		if(b==0) return a;
+		return gcd(b, a%b);
+	}
+	
+	public void rutGon(Pso p) {
+		this.tso/=gcd(this.tso, this.mso);
+		this.mso/=gcd(this.tso, this.mso);
+		
+		p.tso/=gcd(p.tso,p.mso);
+		p.mso/=gcd(p.tso,p.mso);
+		
+		Pso p1=new Pso();
+		
+	}
+
+	@Override
+	public String toString() {
+		return tso+"/"+mso;
+	}
+	
+}
