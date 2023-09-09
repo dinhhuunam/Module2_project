@@ -1,7 +1,7 @@
 package StaticProperty;
 
 public class Car {
-	private String name;
+    private String name;
     private String engine;
     public static int numberOfCars;
     public Car(String name, String engine) {
