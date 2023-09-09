@@ -1,6 +1,0 @@
-package J04008;
-
-public class TamGiac {
-	public static chuVi(Point a,Point b,Point c) {
-	}
-}

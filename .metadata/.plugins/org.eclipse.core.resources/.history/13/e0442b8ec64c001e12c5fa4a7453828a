@@ -1,9 +1,0 @@
-package Inheritance2;
-
-public class Animal {
-	public int age;
-	public String name;
-	
-	public Animal() {
-	}
-}
